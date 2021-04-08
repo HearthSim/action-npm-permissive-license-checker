@@ -1,0 +1,13 @@
+{
+  "name": "action-npm-permissive-licenses",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:HearthSim/action-npm-permissive-licenses.git",
+  "author": "Benedict Etzel <benedict@hearthsim.net>",
+  "license": "UNLICENSED",
+  "private": false,
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "license-checker": "^25.0.1"
+  }
+}

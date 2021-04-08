@@ -14,7 +14,7 @@ Whether to only check production dependencies.
 
 ## Example
 
-```
+```yml
   licenses:
     runs-on: ubuntu-latest
     steps:

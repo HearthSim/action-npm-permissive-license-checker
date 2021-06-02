@@ -6,7 +6,7 @@ const productionOnly = core.getInput("production-only") === "true";
 try {
 	checker.init({
 		start: process.cwd(),
-		onlyAllow: "MIT;ISC;BSD;Unlicense;Apache-2.0",
+		onlyAllow: "MIT;ISC;BSD;Unlicense;Apache-2.0;Python-2.0",
 		excludePrivatePackages,
 		production: productionOnly,
 	}, function(err, packages) {

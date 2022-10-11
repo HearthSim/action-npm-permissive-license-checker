@@ -18,13 +18,13 @@ Whether to only check production dependencies.
   licenses:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: '12'
+          node-version: '16'
       - run: npm install
       - name: Check licenses
-        uses: hearthsim/action-npm-permissive-license-checker@v1
+        uses: hearthsim/action-npm-permissive-license-checker@v2
         with:
           production-only: true
           exclude-private-packages: true

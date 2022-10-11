@@ -8,5 +8,5 @@ inputs:
     description: 'Whether to only check production dependencies'
     required: false
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'index.js'
